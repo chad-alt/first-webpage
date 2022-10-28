@@ -24,8 +24,13 @@ body {
 
  }
  .block1 {
+  flex-grow: 1;
   background-color: #1F2937;
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+ 
  }
  .con {
   font-size: 18px; 
@@ -39,6 +44,7 @@ body {
  .subtext {
   font-size: 18px;
   color: #e5e7eb;
+  max-width: 500px;
  }
  button {
   background-color: #3882f6;
@@ -50,27 +56,37 @@ body {
     height: auto;
     
   }
+  .block2-1 {
+    flex-grow: 1;
+    margin: 0;
+  }
   .block2 {
-    display: flex;
+  display: flex;
   justify-content: center;
   text-align: center;
-  gap: 53px;
   }
   .header3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    flex-grow: 1;
     display: flex;
     align-content: center;
     justify-content: center;
-
-  }
-  .info {
-    
-
+    margin: 50px;
   }
   .text {
-
+    
   }
   .block3 {
+    flex-grow: 1;
     background-color: #e5e7eb;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 50px;
   }
   .quote {
     display: flex;
@@ -80,12 +96,13 @@ body {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
-
+    padding-bottom: 20px;
   }
   .cred {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
 
   }
   .pop {
@@ -96,10 +113,19 @@ body {
 
   }
   .block4 {
+    flex-grow: 1;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .block4-1 {
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     background-color: #3882f6;
+    padding: 50px;
+    column-gap: 50px;
   }
   .mop {
     
